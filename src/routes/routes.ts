@@ -3,6 +3,6 @@ import TareaRouter from './tareaRoute';
 
 const apiRouter = Router();
 
-apiRouter.use('/api/registros', TareaRouter);
+apiRouter.use('/api/tareas', TareaRouter);
 
 export default apiRouter;
